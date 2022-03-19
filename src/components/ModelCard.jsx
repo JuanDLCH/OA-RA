@@ -6,7 +6,7 @@ export const ModelCard = ({ model }) => {
         <li className={styles.modelCard}>
             <a href={ar} target='_blank' rel='noopener noreferrer'>            
             <div className='container'>
-                <iframe src={link} frameborder="0" width="100%" height="480px" title='click me'></iframe>
+                <iframe src={link} frameborder="0" title='click me'></iframe>
                 <h4><b>{title}</b></h4>
                 <p>{desc}</p>
             </div>

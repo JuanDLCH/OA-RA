@@ -6,23 +6,23 @@ import styles from '../styles/ModelsGrid.module.css'
 import modelsJSON from '../utils/models'
 
 export const ModelsGrid = () => {
-    const[models, setModels] = useState([])
-    const [isLoading, setIsLoading] = useState(true)
+  const [models, setModels] = useState([])
+  const [isLoading, setIsLoading] = useState(true)
 
-    useEffect(() => {
-        setIsLoading(true)
-        setModels([...modelsJSON])
-        setIsLoading(false)
-    }, [])
+  useEffect(() => {
+    setIsLoading(true)
+    setModels([...modelsJSON])
+    setIsLoading(false)
+  }, [])
 
-    if (isLoading) {
-        return <Spinner />;
-    }
+  if (isLoading) {
+    return <Spinner />;
+  }
   return (
     <ul className={styles.modelsGrid} >
-    {models.map(model => (
+      {models.map(model => (
         <ModelCard key={model?.id} model={model} />
-    ))}
+      ))}
     </ul>
   )
 }

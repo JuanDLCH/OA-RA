@@ -1,14 +1,18 @@
-.modelsGrid {
+.modelsGrid { 
     display: grid;
-    grid-template-columns: repeat(auto-fill, 1000px);
-    gap: 40px;
+    grid-template-columns: repeat(auto-fill, 30%);
+    grid-gap: 40px;
     padding: 40px;
     margin: 0;
-    justify-content: center;
+    justify-content: center;   
 }
 
 @media(max-width: 560px){
     .modelsGrid {
-        grid-template-columns: 100%;
+        grid-auto-flow: column;
+        grid-auto-columns: 90%;
+        grid-template-columns: 90%;
+        overflow-x: auto;
+        justify-content: inherit;
     }
 }
