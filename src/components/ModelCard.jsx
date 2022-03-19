@@ -1,13 +1,16 @@
-import { getModel } from '../utils/getModel'
 import styles from '../styles/ModelCard.module.css'
 
 export const ModelCard = ({ model }) => {
-    const { title, link } = model
-    // const imageUrl = getMovieImage(poster_path, 300)
+    const { title, link, desc, ar } = model
     return (
         <li className={styles.modelCard}>
-            {link}
-            <div>{title}</div>
+            <a href={ar} target='_blank' rel='noopener noreferrer'>            
+            <div className='container'>
+                <iframe src={link} frameborder="0" width="100%" height="480px" title='click me'></iframe>
+                <h4><b>{title}</b></h4>
+                <p>{desc}</p>
+            </div>
+            </a>
         </li>
     )
 }
