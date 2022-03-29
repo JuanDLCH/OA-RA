@@ -7,7 +7,7 @@ export const App = () => {
   return ( 
     <div> 
       <center>
-        <h1>Objetos de aprendizaje en realidad aumentada</h1>
+        <h1 className='title'>Objetos de aprendizaje en realidad aumentada</h1>
       </center>
       <ModelsGrid/> 
     </div>

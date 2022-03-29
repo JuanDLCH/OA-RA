@@ -3,6 +3,7 @@ import styles from '../styles/ModelCard.module.css'
 export const ModelCard = ({ model }) => {
     const { title, link, desc, ar } = model
     return (
+        //card
         <li className={styles.modelCard}>
             <a href={ar} target='_blank' rel='noopener noreferrer'>            
             <div className='container'>
