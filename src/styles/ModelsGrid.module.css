@@ -36,4 +36,12 @@ h1 {
         overflow-x: auto;
         justify-content: inherit;
     }
+
+    .appsGrid { 
+        grid-auto-flow: column;
+        grid-auto-columns: 90%;
+        grid-template-columns: 90%;
+        overflow-x: auto;
+        justify-content: inherit;  
+    }
 }
