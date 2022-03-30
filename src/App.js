@@ -5,6 +5,9 @@ import {
 import {
   AppsGrid
 } from './components/AppsGrid'
+import {
+  VidsGrid
+} from './components/VidsGrid'
 
 export const App = () => {
   return ( 
@@ -17,6 +20,7 @@ export const App = () => {
       <hr/>
       <ModelsGrid/> 
       <hr/>
+      <VidsGrid/>
     </div>
   );
 }
