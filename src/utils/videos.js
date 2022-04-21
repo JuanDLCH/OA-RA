@@ -14,8 +14,8 @@ const videos = [
     {
         id: '3',
         title: "Carrera",
-        desc: "¿Alguna vez soñaste con ser corredor profesional de F1? ¡Aquí te lo mostramos!",
-        link: "https://www.youtube.com/embed/ny62zkZwszU",
+        desc: "¿Conoces la ciudad del amor? Date un paseo por la torre Eifel y sientete como en Paris",
+        link: "https://www.youtube.com/embed/nbD8XYTw23Y?start=10",
     },
     {
         id: '4',
