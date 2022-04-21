@@ -13,7 +13,7 @@ const videos = [
     },
     {
         id: '3',
-        title: "Carrera",
+        title: "Torre Eiffel",
         desc: "¿Conoces la ciudad del amor? Date un paseo por la torre Eifel y sientete como en Paris",
         link: "https://www.youtube.com/embed/nbD8XYTw23Y?start=10",
     },
